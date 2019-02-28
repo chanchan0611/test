@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <link href="resources/css/cssLayout.css" rel="stylesheet" type="text/css"/>
+    <link href="resources/css/default.css" rel="stylesheet" type="text/css"/>
+    <h:head>
+        <title>Training 4U</title>        
+        <h1>Training 4U</h1>
+    </h:head>
+    <h:body>
+<div class="nav"></div>
+        <ul>
+            <li><a style="color: #ffffff; text-decoration:none" href="index.xhtml"><i class ="fa fa-home"></i> Home</a></li>
+            <li><a style="color: #ffffff; text-decoration:none" href="Sports.xhtml"><i class ="fa fa-user"></i> Sports</a></li>
+            <li><a style="color: #ffffff; text-decoration:none" href="Booking.xhtml"><i class ="fa fa-book"></i> Booking</a></li>
+        </ul>
+        <ui:composition template="./newTemplate.xhtml">
+
+            <ui:define name="content">
+                
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <center><h9>Booking</h9>
+                <h:form>
+                <h:panelGrid id="booking" columns="2" border="3" cellpadding="10" cellspacing="5">
+                <h:outputText value="Customer Name"/>
+                <h:inputText/>
+                <h:outputText value="Contact"/>
+                <h:inputText/>
+                <h:outputText value="Email"/>
+                <h:inputText/>
+                <h:outputText value="Amount"/>
+                <h:inputText/>
+                <h:outputText value="Pyament method"/>
+                <input type="radio" name="method" value="Cash"/>Cash
+                <input type="radio" name="method" value="Debit"/>Debit   
+                <input type="radio" name="method" value="Credit Card"/>Credit Card   
+                <input type="radio" name="method" value="Paypal"/>Paypal   
+                <input type="radio" name="method" value="Visa"/>Visa
+                
+                </h:panelGrid>
+                    <h:commandButton value="Comfirm Booking" action="Sports" actionListener="#{newJSFManagedBean1.bookLes()}"/>
+               
+                    </h:form> </center>
+                </ui:define>
+
+        </ui:composition>
+
+    </h:body>
+</html>
