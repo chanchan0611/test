@@ -1,0 +1,167 @@
+
+#top {
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+#bottom {
+    position: relative;
+    background-color: #c2dfef;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+#main{
+                header:100px;
+            }
+            h1{
+                text-align: center;
+                color: red;
+                font-family: sans-serif;
+                font-size: 50px;
+                }
+                .nav{
+                    width:100%;
+                    background: #000033;
+                    height:50px;
+                }
+                ul li{
+                float:left;
+                width:230px;
+                height:40px;
+                background-color: #000033;
+                opacity:.8;
+                line-height:40px;
+                text-align:center;
+                font-size:20px;
+                margin-right:3px;
+                }
+                ul li a{
+                text-decoration:none;
+                color:white;
+                display:black;
+                }
+                ul li a:hover{
+                background-color: #98bf21;
+                display: block;
+                }
+                ul{
+                margin:0px;
+                padding:0px;
+                list-style:none;
+                }
+                ul ul{
+                    display: none;
+                }
+                ul li:hover ul{
+                    display: block;
+                }
+                h1{
+                    text-align: center;
+                }
+                h2{
+                    text-align: center;
+                    margin-top: -400px;
+                    color: red;
+                    font-size: 30px;
+                }
+                
+                h3{
+                    font-size: 18px;
+                    text-align: center;
+                    font-family: sans-serif;
+                    color: white;
+                }
+                h4{
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    color: greenyellow;
+                    margin-top: 120px;
+                }                
+                
+                h5{
+                    font-family: sans-serif;
+                    color:#98bf21;
+                    text-align:center;
+                    font-size:16px;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    }
+                
+                /*Sport*/  
+
+                p{
+                    text-align: center;
+                    font-family: sans-serif;
+                    font-size: 18px;
+                }
+                .image {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height:60%;
+                    width:60%;
+                }
+                
+                            /*Booking*/
+                            table{
+                                text-align: center;
+                                line-height: 50px;
+                                font-size: 15px;
+                                border:0px solid black;                                
+                            }
+                            h9{
+                                text-align: center;
+                                color: red;
+                                font-family: sans-serif;
+                                font-size: 50px;
+                                
+                            }
