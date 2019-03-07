@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link href="css/newcss.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <title>Leisure Holidays</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a style="color: #ffffff; text-decoration:none" href="Home.html"><i class ="fa fa-home"></i> Home</a>
+  <a style="color: #ffffff; text-decoration:none" href="History.html"><i class ="fa fa-landmark"></i> History</a>
+  <a style="color: #ffffff; text-decoration:none" href="TouristSpot.html"><i class ="fa fa-map"></i> Tourist spot</a>
+  <a style="color: #ffffff; text-decoration:none" href="Hotel.html"><i class ="fa fa-suitcase"></i> Hotel</a>
+  <a style="color: #ffffff; text-decoration:none" href="Transport.html"><i class ="fa fa-subway"></i> Transport</a>
+  <a style="color: #ffffff; text-decoration:none" href="Contact.html"><i class ="fa fa-phone"></i> Contact</a>
+</div>
+    
+    <div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+<h1>Transport - Getting Here</h1>
+
+<h2>From Kuala Lumpur to Penang</h2>
+<div class="txt">
+<p1>By Car: 3.45 hours to 4 hours (362km)
+    <br>
+    By Train: Electronic Train Service (ETS) runs from Kuala Lumpur Central Station
+Butterworth Penang five times a day. It takes 4 hours per ride, depending on the number 
+of sites between Kuala Lumpur and Penang. The ticket price is RM59.
+    <br>
+    By Bus: All buses travel along Highway 1 to Penang. Some buses stop on the way to Ipoh. 
+    Some buses are direct and there is only one toilet/food station along the way. The bus 
+    service from Kuala Lumpur to Penang is about 5 hours. The bus fare from Kuala Lumpur to 
+    Penang is at least MYR 35 and the VIP/Luxury bus fare is MYR 50.
+</p1>
+</div>
+</html>
